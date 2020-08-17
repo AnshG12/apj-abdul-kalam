@@ -6,12 +6,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
-
 h1 {
 	font-family: 'Noto Sans JP', sans-serif;
 }
@@ -25,7 +19,7 @@ p {
 	display: flex;
 	justify-content: center;
 	background-position: center center;
-	background-image: url("img/28.jpg");
+	background-image: url("img/15.png");
 	background-size: 20em;
   	background-repeat: no-repeat;
 	background-clip: border-box;
@@ -33,11 +27,23 @@ p {
 }
 
 .header-text {
-	color: rgb(135,234,97);
+	color: rgb(135, 234, 160);
 	opacity: 0.75;
+	text-shadow: 2px 2px 8px rgba(155, 89, 200, 0.75), -1px 0 rgb(16, 78, 94), 0 1px rgb(16, 78, 94), 1px 0 rgb(16, 78, 94), 0 -1px rgb(16, 78, 94);
 }
 
-/*.main-carousel {
-	padding: 2em;
-	margin: 10em;
-}*/
+.main-carousel {
+	width: 65%;
+}
+
+.carousel-head {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.jumbotron-head {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
