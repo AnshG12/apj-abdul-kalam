@@ -24,6 +24,7 @@ p {
   	background-repeat: no-repeat;
 	background-clip: border-box;
 	background-blend-mode: multiply;
+	margin-bottom: 1em;
 }
 
 .header-text {
@@ -46,4 +47,13 @@ p {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+}
+
+.jumbotron {
+	background-color: rgb(255, 255, 255);
+}
+
+.main-text {
+	margin: 2.5em;
+	color: rgb(153, 78, 23);
 }
