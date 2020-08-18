@@ -6,12 +6,42 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--bg-primary: rgba(88, 211, 170, 0.25);
+}
+
+body {
+	background-color: var(--bg-primary);
+}
+
 h1 {
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
 p {
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+a {
+    display: inline-block;
+}
+
+a::after {
+	content: '';
+	display: block;
+	background-color: currentColor;
+	width: 0;
+	height: 3px;
+	transition:  width 0.2s;
+}
+
+a:hover::after {
+	width: 100%;
+	transition: width 0.2s;
 }
 
 .main-head {
@@ -31,6 +61,11 @@ p {
 	color: rgb(135, 234, 160);
 	opacity: 0.75;
 	text-shadow: 2px 2px 8px rgba(155, 89, 200, 0.75), -1px 0 rgb(16, 78, 94), 0 1px rgb(16, 78, 94), 1px 0 rgb(16, 78, 94), 0 -1px rgb(16, 78, 94);
+	transition: transform 0.2s;
+}
+
+.header-text:hover {
+	transform: scale(1.25);
 }
 
 .main-carousel {
@@ -56,4 +91,42 @@ p {
 .main-text {
 	margin: 2.5em;
 	color: rgb(153, 78, 23);
+}
+
+.popup {
+	position: absolute;
+	background-color: white;
+	top: 20%;
+	left: 55%;
+	opacity: 0.88;
+	height: 15em;
+	width: 10em;
+	font-size: 1em;
+	text-align: center;
+	box-shadow: 5px 10px rgba(123, 45, 230, 0.5);
+}
+
+.remove {
+	height: 0;
+	transition: height 0.3s;
+}
+
+.x {
+	cursor: pointer;
+}
+
+.popup p {
+	padding: 1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.main-text {
+		font-size: 1.25em;
+	}
+
+	.popup {
+		left: 80%;
+		top: 15%;
+	}
 }
