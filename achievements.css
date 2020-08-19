@@ -5,15 +5,8 @@
    font-family: sans-serif;
 }
 
-.Title {
-	font-size: 35px;
-	color: yellow;
-	margin-left: 100px;
-	background-color: brown;
-	margin-right: 150px;
-}
 
-.achievments {
+.achievements {
    margin-left: 20px;
   color: chartreuse;
 	background-color: black;
@@ -29,4 +22,12 @@
 
 .media-body p {
 	font-size: 20px;
+}
+
+.header-text {
+	font-size: 1em;
+	color: rgb(24, 56, 134);
+}
+audio {
+	width: 100%;
 }
