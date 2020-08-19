@@ -5,22 +5,30 @@
    font-family: sans-serif;
 }
 
+.title {
+	padding: 1.25em;
+	word-spacing: 0.2em;
+	color: rgb(53, 198, 114);
+	font-weight: bold;
+}
 
 .achievements {
-   margin-left: 20px;
-  color: chartreuse;
+	margin-left: 20px;
+	color: chartreuse;
 	background-color: black;
 }
-.media{
+
+.media {
 	margin-top: 40px;
 	display: block;	
 }
 
 .media-body h3 {
-	color: red;
+	color: rgb(239, 226, 40);
 }
 
-.media-body p {
+.topic-para {
+	padding-left: 0.25em;
 	font-size: 20px;
 }
 
@@ -28,6 +36,7 @@
 	font-size: 1em;
 	color: rgb(24, 56, 134);
 }
+
 audio {
 	width: 100%;
 }
