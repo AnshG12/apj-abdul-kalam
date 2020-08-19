@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.Title {
+	font-size: 35px;
+	color: yellow;
+	margin-left: 100px;
+	background-color: brown;
+	margin-right: 150px;
+}
+
+.achievments {
+   margin-left: 20px;
+  color: chartreuse;
+	background-color: black;
+}
+.media{
+	margin-top: 40px;
+	display: block;	
+}
+
+.media-body h3 {
+	color: red;
+}
+
+.media-body p {
+	font-size: 20px;
+}
