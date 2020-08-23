@@ -2,10 +2,10 @@ const quotesEl = document.getElementById("quotes-generator");
 const quotesButton = document.getElementById("quotes-button");
 
 const quotes = [
-	"Success is when your signature turns into your autograph.",
-	"Dreams transform into thoughts and thoughts result in action.",
-	"Don't fear for facing failure in the first attempt, because even the successful maths starts with zero only.",
-	"Adversity always presents opportunities for introspection.",
+	"'Success is when your signature turns into your autograph'.",
+	"'Dreams transform into thoughts and thoughts result in action.",
+	"'Don't fear for facing failure in the first attempt, because even the successful maths starts with zero only.'",
+	"'Adversity always presents opportunities for introspection'.",
 ];
 
 quotesButton.addEventListener("click", () => {

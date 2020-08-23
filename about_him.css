@@ -27,22 +27,26 @@ a:hover::after {
 }
 
 
-.container {
+.first {
     width: 100%;
     height: 100%;
-    background: linear-gradient(coral, blue);
+    background: linear-gradient(to right, yellow,tomato);
     color: #fff;
     align-content: center;
     background-position: center ;
     text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+    
 }
 
 .part {
     text-align: center;
-    font-size: .8em;
+    font-size: 0.8em;
     position: absolute;
     text-decoration: none;
-    color: darkgoldenrod;  
+    color: floralwhite; 
+    background: linear-gradient(to right, darkcyan,lightblue);
 }
 
 .contributions {
@@ -51,13 +55,13 @@ a:hover::after {
     color: #fff;
     text-align: justify;
     font-size: 4em;
-    background-color: black;
+    background: black;
 }
 
 .table {
     margin-top: 0.25em;
     color: coral;
-    background-color: black;
+    background: black;
     font-size: 25px;
 }
 
@@ -71,6 +75,7 @@ a:hover::after {
 
 audio {
     width: 100%;
+    background: linear-gradient(to right, yellow,tomato);
 }
 
 .button {
@@ -87,4 +92,96 @@ audio {
         margin-top: 1em;
         font-size: 1.25em;
     }
+}
+.body {
+    background: linear-gradient(black,black);
+}
+.html{
+scroll-behavior: smooth;
+}
+.navbar{
+position: fixed;
+z-index: 99999;
+background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, silver,white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top: -70px;
+width: 100%;
+}
+
+.kl{
+margin-right: 2px;
+background-color: transparent;
+border: 1px solid transparent;
+color: white;
+border-radius: 50px;
+font-size: 20px;
+}
+
+.kl:hover{
+border: 1px solid tomato;
+border-radius: 50px;
+background-color: tomato;
+color: white;
+}
+
+.kll {
+border-radius: 50px;
+padding: 10px;
+}
+
+.kll:hover {
+color: white;
+background-color: tomato;
+}
+
+.menus{
+padding: 10px;
+border-radius: 20px;
+position: relative;
+left: -90px;
+}
+.custom-toggler.navbar-toggler {
+  border-color: black;
+} 
+
+.custom-toggler.navbar-toggler:focus {
+outline: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 6px;
+    -ms-webkit-border-radius: 5px;
+    background-color: white;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 20px;
+    border-radius: 2px;
+    background: gold; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -ms-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-moz-scrollbar {
+    width: 10px;
+}
+::-moz-scrollbar-track {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 5px;
+    -ms-webkit-border-radius: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+::-moz-scrollbar-thumb {
+    -webkit-border-radius: 20px;
+    border-radius: 2px;
+    background: black; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -ms-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.hello{
+        font-size: 25px;
 }

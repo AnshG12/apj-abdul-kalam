@@ -13,7 +13,39 @@
 	<script src="./achievements.js" defer></script>
   </head>
 <body>
-    <center><h1 class="title">Achievements And Quotes By Dr. APJ Abdul Kalam</h1></center>
+    <nav class="navbar navbar-expand-lg">
+<div class="navbar-brand kl1" >
+<svg width="2.25em" height="2.25em" viewBox="0 0 16 16" class="bi bi-trophy" fill="gold" xmlns="http://www.w3.org/2000/svg">
+  <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
+  <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
+  <path d="M7 10h2v4H7v-4z"/>
+  <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
+</svg>
+        </div>
+        <div class="hello">
+            <strong><u>A.P.J. Abdul Kalam</u></strong>
+</div>	
+<button type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#nav1">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav1">
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item active li1"><a href="index.html" class="nav-link kl">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
+<li class="nav-item li1">
+<div class="nav-item dropdown">
+	<div href="#" class="nav-link dropdown-toggle kl" data-toggle="dropdown" >&nbsp;&nbsp;A.P.J.&nbsp;&nbsp;</div>
+                    <div class="dropdown-menu menus">
+                        <a href="index.html" target="_blank" class="dropdown-item kll">Introduction to A.P.J.</a>
+                        <a href="about_him.html" target="_blank" class="dropdown-item kll">About A.P.J.</a>
+                        <a href="achievements.html" target="_blank" class="dropdown-item kll">Achievments n Quotes</a>
+                    </div>
+</div>
+</ul>	
+</div>
+</nav>
+    <center><h1 class="title"><u><strong>Achievements And Quotes By Dr. APJ Abdul Kalam</strong></u></h1></center>
      <audio controls>
   <source src="audio/AUDIO-2020-08-15-16-21-02.mp3" type="audio/mpeg" width="2" height="0">
 	Your browser does not support the audio element.
@@ -21,7 +53,7 @@
             <div class="achievements">
             <ul class="list-unstyled">
   <li class="media">
-    <img src="img/4.JPG" class="mr-3" alt="4.jpg" height="200" width="300">
+    <img src="16.png" class="mr-3" alt="16.png" height="200" width="300">
     <div class="media-body">
         <h3 class="mt-0 mb-1 ml-2"><strong><u>PADMA BHUSHAN in 1981 and PADMA VIBHUSHAN in 1990</u></strong></h3>
         <p class="topic-para">By Government of India for his work with ISRO and DRDO and his role as a scientific advisor to the Government.</p>
@@ -50,9 +82,14 @@
 	</li>
 	</ul>
 	</div>
+
 	<div class="quotes">
-		<blockquote id="quotes-generator" class="ml-5"><!--To be filled by Javascript--></blockquote>
+        <strong><em><blockquote id="quotes-generator" class="ml-5"><!--To be filled by Javascript--></blockquote></em></strong>
 		<button id="quotes-button" class="btn btn-success ml-5">Click for random quote by APJ Abdul Kalam!</button>
 	</div>
+      <div class="button">
+        <button type="button" class="btn btn-outline-info"><a href="index.html" role="button">Home Page</a></button>
+         <button type="button" class="btn btn-outline-info"><a href="about_him.html" role="button">More About A.P.J. Abdul Kalam</a></button>
+    </div>
 </body>
 </html>
